@@ -3,7 +3,7 @@
    Plugin Name: WP-CRM System Import Campaigns
    Plugin URI: https://www.wp-crm.com
    Description: Upload campaigns to WP-CRM System in a CSV file.
-   Version: 2.2.2
+   Version: 2.2.3
    Author: Scott DeLuzio
    Author URI: https://www.wp-crm.com
    Text Domain: wp-crm-system-import-campaigns
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'WPCRM_IMPORT_CAMPAIGNS', __FILE__ );
-define( 'WPCRM_IMPORT_CAMPAIGNS_VERSION', '2.2.2' );
+define( 'WPCRM_IMPORT_CAMPAIGNS_VERSION', '2.2.3' );
 if ( ! defined( 'WPCRM_IMPORT_CAMPAIGNS_DIR' ) ){
 	define( 'WPCRM_IMPORT_CAMPAIGNS_DIR', plugin_dir_path( __FILE__ ) );
 }
